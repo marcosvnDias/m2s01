@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LabQuiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <form class="form-header">
+                <h1>LabQuiz</h1>
+                <h3>Esse quiz da LAB365 foi criado para testamos nossos conhecimentos sobre HTML e CSS,
+                    então aproveite e se divitar!
+                </h3>
+
+                <div class="box-inputs-header">
+                    <input class="input-text" type="text" placeholder="Nome do jogador" required/>
+                </div>
+
+                <div class="box-button">
+                    <button>Iniciar</button>
+                </div>
+            </form>
+        </header>
+
+        <main>
+            <form class="form-main">
+                <div>
+                    <p>
+                        <b>Pergunta 1:</b> Como se define um estilo inline em HTML?
+                    </p>
+
+                    <input class="input-text" type="text" id="question1" placeholder="Resposta" required/>
+                </div>
+    
+                <div>
+                    <p>
+                        <b>Pergunta 2:</b> Qual é a tag usada para criar uma lista ordenada em HTML?
+                    </p>
+
+                    <select name="resposta2">
+                        <option value="ol">ol</option>
+                        <option value="ul">ul</option>
+                        <option value="li">li</option>
+                        <option value="order-list">order-list</option>
+                    </select>
+                </div>
+    
+                <div>
+                    <p>
+                        <b>Pergunta 3:</b> Qual propriedade CSS é usada para alterar a cor do texto?
+                    </p>
+
+                    <select name="resposta3">
+                        <option value="font-color">Font-color</option>
+                        <option value="color">Color</option>
+                        <option value="background-color">Background-color</option>
+                        <option value="text-color">Text-color</option>
+                    </select>
+                </div>
+    
+                <div>
+                    <p>
+                        <b>Pergunta 4:</b> Como se referencia um arquivo CSS externo em um documento HTML?
+                    </p>
+
+                    <input class="input-text" type="text" id="question1" placeholder="Resposta" required/>
+                </div>
+    
+                <div>
+                    <p>
+                        <b>Pergunta 5:</b> Font-size é a propriedade CSS usada para alterar o tamanho da fonte de um texto?
+                    </p>
+                    
+                    <div class="container-radio-and-checkbox">
+                        <div class="box-radio-and-checkbox">
+                            <input class="input-radio-checkbox" type="radio" id="radio1" 
+                            name="question5" value="sim" checked/>
+                            <label for="radio1">Sim</label>
+                        </div>
+    
+                        <div class="box-radio-and-checkbox">
+                            <input class="input-radio-checkbox" type="radio" id="radio2" 
+                            name="question5" value="sim"/>
+                            <label for="radio2">Não</label>
+                        </div>
+                    </div>
+
+                </div>
+    
+                <div>
+                    <p>
+                        <b>Pergunta 6:</b> Qual é a propriedade CSS usada para definir a largura de um elemento?
+                    </p>
+
+                    <div class="container-radio-and-checkbox">
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox1" 
+                                name="question6" value="height"/>
+    
+                                <label for="checkbox1">Height</label>
+                            </div>
+    
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox2" 
+                                name="question6" value="size"/>
+    
+                                <label for="checkbox2">Size</label>
+                            </div>
+    
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox3" 
+                                name="question6" value="width"/>
+    
+                                <label for="checkbox3">Width</label>
+                            </div>
+    
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox4" 
+                                name="question6" value="max-width"/>
+    
+                                <label for="checkbox4">Max-width</label>
+                            </div>
+                    </div>
+
+                </div>
+    
+                <div>
+                    <p>
+                        <b>Pergunta 7:</b> Como se cria um comentário em CSS?
+                    </p>
+
+                    <div class="container-radio-and-checkbox">
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox1" 
+                                name="question7" value="&lt!-- --&gt"/>
+    
+                                <label for="checkbox1">&lt!-- --&gt</label>
+                            </div>
+    
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox2" 
+                                name="question7" value="//"/>
+    
+                                <label for="checkbox2">//</label>
+                            </div>
+    
+                            <div class="box-radio-and-checkbox">
+                                <input class="input-radio-checkbox" type="checkbox" id="checkbox3" 
+                                name="question7" value="/* */"/>
+    
+                                <label for="checkbox3">/* */</label>
+                            </div>
+                    </div>
+                </div>    
+    
+                <div>
+                    <p>
+                        <b>Pergunta 8:</b> Qual é a propriedade CSS usada para definir a altura de um elemento?
+                    </p>
+
+                    <div class="container-radio-and-checkbox">
+                        <div class="box-radio-and-checkbox">
+                            <input class="input-radio-checkbox" type="checkbox" id="checkbox1" 
+                            name="question8" value="height"/>
+
+                            <label for="checkbox1">Height</label>
+                        </div>
+
+                        <div class="box-radio-and-checkbox">
+                            <input class="input-radio-checkbox" type="checkbox" id="checkbox2" 
+                            name="question8" value="size"/>
+
+                            <label for="checkbox2">Size</label>
+                        </div>
+
+                        <div class="box-radio-and-checkbox">
+                            <input class="input-radio-checkbox" type="checkbox" id="checkbox3" 
+                            name="question8" value="min-height"/>
+
+                            <label for="checkbox3">Min-height</label>
+                        </div>
+
+                        <div class="box-radio-and-checkbox">
+                            <input class="input-radio-checkbox" type="checkbox" id="checkbox4" 
+                            name="question8" value="max-height"/>
+
+                            <label for="checkbox4">Max-height</label>
+                        </div>
+                    </div>    
+                </div>
+
+                <div class="box-button">
+                    <button>Enviar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+</body>
+</html>
